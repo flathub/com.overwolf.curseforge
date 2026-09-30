@@ -1,2 +1,2 @@
 #!/bin/sh
-exec env TMPDIR="${XDG_CACHE_HOME}" zypak-wrapper /app/curseforge/curseforge "$@"
+exec env TMPDIR="${XDG_CACHE_HOME}" zypak-wrapper /app/curseforge/curseforge --ozone-platform=x11 "$@"

@@ -11,8 +11,7 @@ tags:
 finish-args:
   - --share=ipc
   - --share=network
-  - --socket=wayland
-  - --socket=fallback-x11
+  - --socket=x11
   - --socket=pulseaudio
   - --device=dri
   - --talk-name=org.kde.StatusNotifierWatcher
