@@ -38,7 +38,7 @@ modules:
           type: json
           is-main-source: true
           url: https://curseforge.overwolf.com/electron/linux/flathub-latest.json
-          version-query: .version
+          version-query: .version | sub("-"; ".")
           url-query: .url
       - type: file
         path: curseforge.sh
