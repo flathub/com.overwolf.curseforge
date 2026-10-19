@@ -30,8 +30,8 @@ modules:
       - cp -a . "${FLATPAK_DEST}/curseforge/"
     sources:
       - type: archive
-        url: https://curseforge.overwolf.com/electron/linux/versions/1.323.0.40840/CurseForge-1.323.0-40840.tar.gz
-        sha512: f3a484782afb28c1fce9436d64b8c3159b95c78ffa3f40058712560446b077d6f931be7099bd41dadd47b6b2a4f6cea2d2cc4a44c5d10de35f7a8b00e3165814
+        url: https://curseforge.overwolf.com/electron/linux/versions/1.324.0.41180/CurseForge-1.324.0-41180.tar.gz
+        sha512: 21c48d47af8856564f4f0e8cc6a60ffa58acfb40c730eb1a2fa119483ce117b38e70c49b7cf1764b2751cfa3de489cfa16c969eac5a978987c39da0e2069336c
         strip-components: 1
         only-arches: [x86_64]
         x-checker-data:
