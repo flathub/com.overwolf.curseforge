@@ -31,9 +31,9 @@ modules:
     sources:
       - type: archive
         url: 
-          https://curseforge.overwolf.com/electron/linux/versions/1.325.0.41594/CurseForge-1.325.0-41594.tar.gz
+          https://curseforge.overwolf.com/electron/linux/versions/1.326.0.42377/CurseForge-1.326.0-42377.tar.gz
         sha512: 
-          6b197f45c3350cdca68cddf250d5c1c4fe84cb06717fb0aa51ccd911ef25be52e58ef07ddb1b8875f9bf180d515fff564f92a76f5bc67922bb3085b9608394f2
+          342f44535a3ac213c14ed5631e753d0fdf192fae4da83f65028f5863227211a07b2f66f58601c3b08a19105499cd072b0b9c86dd8e387060d57602dc476116c7
         strip-components: 1
         only-arches: [x86_64]
         x-checker-data:
